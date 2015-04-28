@@ -1,0 +1,14 @@
+diff -rupN old/ezpublish5_community_project-2014.07.0-gpl-full/ezpublish_legacy/kernel/setup/steps/ezstep_data.php new/ezpublish5_community_project-2014.07.0-gpl-full/ezpublish_legacy/kernel/setup/steps/ezstep_data.php
+--- old/ezpublish5_community_project-2014.07.0-gpl-full/ezpublish_legacy/kernel/setup/steps/ezstep_data.php	2014-08-07 17:34:59.000000000 +0200
++++ new/ezpublish5_community_project-2014.07.0-gpl-full/ezpublish_legacy/kernel/setup/steps/ezstep_data.php	2015-04-28 14:02:44.578892483 +0200
+@@ -168,8 +168,8 @@ class eZStepData
+                                    'class' => 'SiteAdmin'),
+                             array( 'file' => 'security',
+                                    'class' => 'Security' ),
+-                            array( 'file' => 'registration',
+-                                   'class' => 'Registration' ),
++                           // array( 'file' => 'registration',
++                           //        'class' => 'Registration' ),
+                             array( 'file' => 'create_sites',
+                                    'class' => 'CreateSites',
+                                    'count_step' => false ),
