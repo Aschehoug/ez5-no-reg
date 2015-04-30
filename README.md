@@ -9,5 +9,5 @@ Forced registration is not something that belongs in an open source project.
 From the root install directory, before running the eZ Publish install wizard, run
 
 ```
-patch -p1 < ezpublish5_community_project-2014.07.0-gpl-full-no_registration.patch
+patch -p2 < ezpublish5_community_project-2014.07.0-gpl-full-no_registration.patch
 ```
